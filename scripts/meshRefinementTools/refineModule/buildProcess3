@@ -1,0 +1,4 @@
+python3 setupMeshRefineP3.py build_ext -i --inplace
+cp -f meshRefine.cpython-*-x86_64-linux-gnu.so ../meshRefine.so
+
+

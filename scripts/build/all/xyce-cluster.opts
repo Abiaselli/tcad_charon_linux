@@ -1,0 +1,14 @@
+####################################
+# couple to Xyce cluster opts
+####################################
+
+ENABLE_XYCE_CLUSTER:BOOL=ON
+
+TPL_ENABLE_BoostCharonLib:BOOL=ON
+
+TPL_ENABLE_XyceCharonLib:BOOL=ON
+
+# Set to the location where the Xyce libraries and include files were
+# installed.
+XyceCharonLib_INCLUDE_DIRS:PATH="${WORKSPACE}/install/include"
+XyceCharonLib_LIBRARY_DIRS:PATH="${WORKSPACE}/install/lib"
